@@ -5,7 +5,7 @@ To use this, first:
 - install python3 and dependencies, including wxPython Phoenix >=4 and pyVTK>=7.0
 - Create a local directory with any name (say my_ets)
 - download ets.py and save to this directory
-- then from a terminal cd to my_ets
+- open a terminal, cd to my_ets
 
 then type: 
 
@@ -60,7 +60,6 @@ python3 ets.py -h | --help | clone [--ssh] | COMMAND [args] | ALIAS [args]
       install  python setup.py install
       develop  python setup.py develop"""
 
-======================================================================
 ETS installation dependencies (documentation only).
 ======================================================================
 
