@@ -2,7 +2,13 @@
 sets up of the ETS packages from this repo for wxPython Phoenix and Python 3.
 
 To use this, first:
-- install python3 and dependencies, including wxPython Phoenix >=4 and pyVTK>=7.0
+- install python3 and dependencies, including wxPython Phoenix >=3 and pyVTK>=7.0
+     Recommended:
+     
+     install python3 using Anaconda, then from an anaconda terminal type the following
+     conda install -c clinicalgraphics vtk=7.1.0
+     conda install -c newville wxpython-phoenix=3.0.3
+     
 - Create a local directory with any name (say my_ets)
 - download ets.py and save to this directory
 - open a terminal, cd to my_ets
