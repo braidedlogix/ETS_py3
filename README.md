@@ -10,13 +10,16 @@ To use this, first:
          conda install -c newville wxpython-phoenix=3.0.3
          pip install fonttools
 
-         for OSX, need swig:
+         for OSX, need swig and environment definition:
 
             1. Press Command+Space and type Terminal and press enter/return key.
             2. Run in Terminal app:
             ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
             and press enter/return key. Wait for the command to finish.
-            3.brew install swig
+            3. brew install swig
+            and most likely, the following
+            4. export TTFPATH=/Library/Fonts
+            
         
      
 - Create a local directory with any name (say my_ets)
