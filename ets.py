@@ -86,11 +86,13 @@ Notes:
    traitsui, because traitsui itself depends on both of these.
 """
 #Scimath_wxPhoenix_py3 excluded
+#Casuarius_wxPhoenix_py3 excluded
 
 ets_package_names = """Traits_wxPhoenix_py3 Pyface_wxPhoenix_py3 TraitsUI_wxPhoenix_py3
-                       Casuarius_wxPhoenix_py3 Encore_wxPhoenix_py3  Codetools_wxPhoenix_py3
-                       Apptools_wxPhoenix_py3 Graphcanvas_wxPhoenix_py3
-                       Enable_wxPhoenix_py3 Envisage_wxPhoenix_py3  Chaco_wxPhoenix_py3 
+                       Encore_wxPhoenix_py3  Codetools_wxPhoenix_py3
+                       Apptools_wxPhoenix_py3 Enable_wxPhoenix_py3 
+                       Graphcanvas_wxPhoenix_py3
+                       Envisage_wxPhoenix_py3  Chaco_wxPhoenix_py3 
                        Mayavi_wxPhoenix_py3
                        """
 
