@@ -54,7 +54,8 @@ aliases = """\n
       setup    python setup.py
       build    python setup.py build
       install  python setup.py install
-      develop  python setup.py develop"""
+      develop  python setup.py develop
+      bdist_wheel python setup.py bdist_wheel"""
 
 """\
 ======================================================================
@@ -88,12 +89,17 @@ Notes:
 #Scimath_wxPhoenix_py3 excluded
 #Casuarius_wxPhoenix_py3 excluded
 
-ets_package_names = """Traits_wxPhoenix_py3 Pyface_wxPhoenix_py3 TraitsUI_wxPhoenix_py3
-                       Encore_wxPhoenix_py3  Codetools_wxPhoenix_py3
-                       Apptools_wxPhoenix_py3 Enable_wxPhoenix_py3 
-                       Graphcanvas_wxPhoenix_py3
-                       Envisage_wxPhoenix_py3  Chaco_wxPhoenix_py3 
-                       Mayavi_wxPhoenix_py3
+ets_package_names = """Encore_wxPhoenix_py3  
+                       Traits_wxPhoenix_py3
+                          Codetools_wxPhoenix_py3
+                          Pyface_wxPhoenix_py3 
+                             TraitsUI_wxPhoenix_py3
+                                Enable_wxPhoenix_py3
+                                   Chaco_wxPhoenix_py3
+                                   Graphcanvas_wxPhoenix_py3
+                                Apptools_wxPhoenix_py3
+                                   Mayavi_wxPhoenix_py3
+                                   Envisage_wxPhoenix_py3 
                        """
 
 ets_ssh = "git@github.com:braidedlogix/%s.git"
