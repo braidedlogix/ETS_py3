@@ -5,7 +5,8 @@ To use this, first:
 - install python3 and dependencies, including wxPython Phoenix >=3 and pyVTK>=7.0
      Recommended:
      
-         install python3 using Anaconda, then from an anaconda terminal type the following
+         install python3 using Anaconda, 
+         start an anaconda terminal for this Python 3 installation, then type the following
          conda install -c clinicalgraphics vtk=7.1.0
          conda install -c newville wxpython-phoenix=3.0.3
          pip install fonttools
@@ -26,9 +27,20 @@ To use this, first:
 - download ets.py and save to this directory
 - open a terminal, cd to my_ets
 
-then type: 
+then type, from Anaconda Python 3 terminal for fresh install: 
+  
+      Fresh install all packages from master:
+         python ets.py clone
+         python ets.py develop OR python ets.py build OR python ets.py install
+         
 
-python3 ets.py -h | --help | clone [--ssh] | COMMAND [args] | ALIAS [args]
+      Update all packages from master:
+         python3 ets.py pull
+         python ets.py develop OR python ets.py build OR python ets.py install
+
+The general usage has the template:
+
+python ets.py -h | --help | clone [--ssh] | COMMAND [args] | ALIAS [args]
    -h, --help  Print this message.
 
        clone       
@@ -51,20 +63,6 @@ python3 ets.py -h | --help | clone [--ssh] | COMMAND [args] | ALIAS [args]
        the user. Any alias may be followed by optional additional
        arguments.
 
-
-
-
-   Examples:
-   
-      Fresh install all packages from master:
-         mkdir ETS
-         cd ETS
-         python3 ets.py clone
-         python3 ets.py develop
-
-      Update all packages from master:
-         python3 ets.py pull
-
    The ETS packages referenced, in order of processing, are:
 
       pull     git pull
@@ -79,10 +77,9 @@ python3 ets.py -h | --help | clone [--ssh] | COMMAND [args] | ALIAS [args]
       install  python setup.py install
       develop  python setup.py develop"""
 
-ETS installation dependencies (documentation only).
+ETS_py3 installation dependencies (documentation only).
 ======================================================================
 
-        casuarius
         encore
         traits
             codetools
