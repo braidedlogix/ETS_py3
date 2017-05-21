@@ -35,7 +35,7 @@ then type, from Anaconda Python 3 terminal for fresh install:
          
 
       Update all packages from master:
-         python3 ets.py pull
+         python ets.py pull
          python ets.py develop OR python ets.py build OR python ets.py install
 
 The general usage has the template:
