@@ -10,16 +10,10 @@ To use this, first:
          conda install -c clinicalgraphics vtk=7.1.0
          conda install -c newville wxpython-phoenix=3.0.3
          pip install fonttools
-
-         for OSX, need swig and environment definition:
-
-            1. Press Command+Space and type Terminal and press enter/return key.
-            2. Run in Terminal app:
-            ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
-            and press enter/return key. Wait for the command to finish.
-            3. brew install swig
-            and most likely, the following
-            4. export TTFPATH=/Library/Fonts
+         conda install swig 
+         
+         (for OSX, most likely, the following:
+         export TTFPATH=/Library/Fonts )
             
         
      
