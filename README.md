@@ -14,6 +14,9 @@ To use this, first:
          
          (for OSX, most likely, the following:
          export TTFPATH=/Library/Fonts )
+         
+        (for Windows, perhaps others, the following may be necessary:
+         conda install git)
             
         
      
