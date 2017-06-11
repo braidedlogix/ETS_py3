@@ -88,10 +88,10 @@ Notes:
 """
 #Scimath_wxPhoenix_py3 excluded
 #Casuarius_wxPhoenix_py3 excluded
+# Codetools_wxPhoenix_py3 excluded
 
 ets_package_names = """Encore_wxPhoenix_py3  
                        Traits_wxPhoenix_py3
-                          Codetools_wxPhoenix_py3
                           Pyface_wxPhoenix_py3 
                              TraitsUI_wxPhoenix_py3
                                 Enable_wxPhoenix_py3

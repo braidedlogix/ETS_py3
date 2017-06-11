@@ -2,13 +2,13 @@
 sets up of the ETS packages from this repo for wxPython Phoenix and Python 3.
 
 To use this, first:
-- install python3 and dependencies, including wxPython Phoenix >=3 and pyVTK>=7.0
+- install python3 and dependencies, including wxPython Phoenix >=4 and pyVTK>=7.0
      Recommended:
      
          install python3 using Anaconda, 
          start an anaconda terminal for this Python 3 installation, then type the following
          conda install -c clinicalgraphics vtk=7.1.0
-         conda install -c newville wxpython-phoenix=3.0.3
+         conda install -c gsecars wxpython
          pip install fonttools
          conda install swig 
          
