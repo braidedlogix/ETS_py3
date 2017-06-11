@@ -1,5 +1,5 @@
 # ETS_py3
-sets up of the ETS packages from this repo for wxPython Phoenix and Python 3.
+sets up of the ETS packages from this repo for wxPython Phoenix, Python 3, and PyQT5.
 
 To use this, first:
 - install python3 and dependencies, including wxPython Phoenix >=4 and pyVTK>=7.0
