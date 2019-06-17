@@ -12,13 +12,13 @@ To use this, first:
          conda update --all
          conda install configobj
          conda install pyopengl   
-   [the traitsui demo launcher might otherwise 
-      crash with qt4 backend using pyqt5]
+        (the traitsui demo launcher might otherwise 
+          crash with qt4 backend using pyqt5)
          pip install fonttools
          pip install pyqt5
          pip install PyQtWebEngine
-   [as of now, this installs pyqt5 version 5.12, which prevents
-      some segfaults with the html pages] 
+        (as of now, this installs pyqt5 version 5.12, which prevents
+          some segfaults with the html pages) 
          
          (might be necessary, particularly for Windows:
          conda install swig
