@@ -9,9 +9,16 @@ To use this, first:
          start an anaconda terminal for this Python 3 installation, then type the following:
 
          conda install -c anaconda vtk wxpython
+         conda update --all
          conda install configobj
-         conda install pyopengl   [the traitsui demo launcher might otherwise crash with qt4 backend using pyqt5]
+         conda install pyopengl   
+   [the traitsui demo launcher might otherwise 
+      crash with qt4 backend using pyqt5]
          pip install fonttools
+         pip install pyqt5
+         pip install PyQtWebEngine
+   [as of now, this installs pyqt5 version 5.12, which prevents
+      some segfaults with the html pages] 
          
          (might be necessary, particularly for Windows:
          conda install swig
@@ -21,7 +28,9 @@ To use this, first:
          (for OSX, most likely, the following:
          export TTFPATH=/Library/Fonts )
          
-        (for Windows, for building it is necessary to have a visual studio environment (community edition free for individual/academic/open-source use). The build succeeded with a 2015 community version) 
+        (for Windows, for building it is necessary to have a 
+            visual studio environment (community edition free for individual/academic/open-source use). 
+            The build succeeded with a 2015 community version) 
          
             
         
